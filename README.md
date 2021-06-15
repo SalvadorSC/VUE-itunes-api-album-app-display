@@ -1,24 +1,5 @@
-# frontend-hp-2
+Problemas con la app:
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- A la hora de filtrar como usuario, solo lo hace con coincidencias del principio del string.
+  - Ej 1: Al buscar "old" de para encontrar todas las versiones de "Old Town Road", de Lil Nas X, si que filtra y proporciona las respuestas.
+  - Ej 2: Al buscar "town" de para encontrar todas las versiones de "Old Town Road", de Lil Nas X, no proporciona las respuestas deseadas.
